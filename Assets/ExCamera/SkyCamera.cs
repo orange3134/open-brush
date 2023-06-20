@@ -17,6 +17,7 @@ namespace SkyCamera
         private float _prevFovControl;
         private float _currentFovVelocity;
 
+        [Header("Config")]
         [SerializeField] private bool _horizontalMove = true;
         [SerializeField] private float _moveSpeed = 0.2f;
         [SerializeField] private float _moveSmoothTime = 0.1f;

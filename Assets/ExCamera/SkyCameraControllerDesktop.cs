@@ -24,8 +24,10 @@ namespace SkyCamera
             {
                 Vector3 inputVector = MoveInput();
                 Vector3 rotationInput = RotationInput();
+                float fovInput = FovInput();
                 _skyCamera.Move(inputVector);
                 _skyCamera.Rotation(rotationInput);
+                _skyCamera.Fov(fovInput);
 
                 if (Keyboard.current.zKey.wasPressedThisFrame) _skyCamera.ResetRollRotation();
             }
@@ -48,6 +50,12 @@ namespace SkyCamera
             float roll = (Keyboard.current.qKey.isPressed ? 1f : 0f) + (Keyboard.current.eKey.isPressed ? -1f : 0f);
             Vector3 vector = new Vector3(yaw, _invertYAxis ? -pitch : pitch, roll);
             return vector;
+        }
+
+        private float FovInput()
+        {
+            float fov = (Keyboard.current.fKey.isPressed ? 1f : 0f) + (Keyboard.current.rKey.isPressed ? -1f : 0f);
+            return fov;
         }
     }
 }

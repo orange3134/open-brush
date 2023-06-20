@@ -14,12 +14,16 @@ namespace SkyCamera
         private Vector3 _currentMoveVelocity;
         private Vector3 _prevRotationVector;
         private Vector3 _currentRotationVelocity;
+        private float _prevFovControl;
+        private float _currentFovVelocity;
 
         [SerializeField] private bool _horizontalMove = true;
         [SerializeField] private float _moveSpeed = 0.2f;
         [SerializeField] private float _moveSmoothTime = 0.1f;
         [SerializeField] private float _rotationSpeed = 0.2f;
         [SerializeField] private float _rotationSmoothTime = 0.1f;
+        [SerializeField] private float _fovSpeed = 0.2f;
+        [SerializeField] private float _fovSmoothTime = 0.1f;
 
         // Start is called before the first frame update
         void Start()
@@ -76,6 +80,13 @@ namespace SkyCamera
         {
             var currentEuler = _pitchRoll.localRotation.eulerAngles;
             _pitchRoll.SetLocalPositionAndRotation(_pitchRoll.localPosition, Quaternion.Euler(currentEuler.x, 0f, 0f));
+        }
+
+        public void Fov(float fovControl)
+        {
+            float smoothFovControl = Mathf.SmoothDamp(_prevFovControl, fovControl * _fovSpeed, ref _currentFovVelocity, _fovSmoothTime);
+            _prevFovControl = smoothFovControl;
+            _mainCamera.fieldOfView = Mathf.Clamp(_mainCamera.fieldOfView + smoothFovControl, 2f, 150f);
         }
     }
 }

@@ -65,6 +65,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c38386cb2063a64fb66c945908ead00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _keyForward: 37
+  _keyBack: 33
+  _keyLeft: 15
+  _keyRight: 18
+  _keyUp: 1
+  _keyDown: 17
+  _keyYawRight: 62
+  _keyYawLeft: 61
+  _keyPitchUp: 63
+  _keyPitchDown: 64
+  _keyRollLeft: 31
+  _keyRollRight: 19
+  _keyFovTele: 32
+  _keyFovWide: 20
+  _keyResetRoll: 36
   _invertYAxis: 1
 --- !u!1 &3475302945732140271
 GameObject:

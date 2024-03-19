@@ -22,7 +22,7 @@ namespace SkyCamera
         [SerializeField] private Key _keyPitchUp = Key.UpArrow;
         [SerializeField] private Key _keyPitchDown = Key.DownArrow;
         [SerializeField] private Key _keyRollLeft = Key.Q;
-        [SerializeField] private Key _keyRollRight = Key.R;
+        [SerializeField] private Key _keyRollRight = Key.E;
         [Header("Fov")]
         [SerializeField] private Key _keyFovTele = Key.R;
         [SerializeField] private Key _keyFovWide = Key.F;

@@ -161,67 +161,67 @@ namespace TiltBrush
         // active.
         private static readonly KeyMap m_KeyMap = new KeyMap
         {
-            { (int)KeyboardShortcut.LockToHead, new[] { Key.LeftShift } },
-            { (int)KeyboardShortcut.PivotRotation, new[] { Key.LeftCtrl } },
-            { (int)KeyboardShortcut.Scale, new[] { Key.Tab } },
+            // { (int)KeyboardShortcut.LockToHead, new[] { Key.LeftShift } },
+            // { (int)KeyboardShortcut.PivotRotation, new[] { Key.LeftCtrl } },
+            // { (int)KeyboardShortcut.Scale, new[] { Key.Tab } },
 
-            { (int)KeyboardShortcut.RewindTimeline, new[] { Key.Minus } },
-            { (int)KeyboardShortcut.AdvanceTimeline, new[] { Key.Equals } },
-            { (int)KeyboardShortcut.TimelineHome, new[] { Key.Home } },
-            { (int)KeyboardShortcut.TimelineEnd, new[] { Key.End } },
-            { (int)KeyboardShortcut.Reset, new[] { Key.Space } },
-            { (int)KeyboardShortcut.Undo, new[] { Key.Z } },
-            { (int)KeyboardShortcut.Redo, new[] { Key.X } },
-            { (int)KeyboardShortcut.Delete, new[] { Key.Delete } },
-            { (int)KeyboardShortcut.Abort, new[] { Key.Escape } },
+            // { (int)KeyboardShortcut.RewindTimeline, new[] { Key.Minus } },
+            // { (int)KeyboardShortcut.AdvanceTimeline, new[] { Key.Equals } },
+            // { (int)KeyboardShortcut.TimelineHome, new[] { Key.Home } },
+            // { (int)KeyboardShortcut.TimelineEnd, new[] { Key.End } },
+            // { (int)KeyboardShortcut.Reset, new[] { Key.Space } },
+            // { (int)KeyboardShortcut.Undo, new[] { Key.Z } },
+            // { (int)KeyboardShortcut.Redo, new[] { Key.X } },
+            // { (int)KeyboardShortcut.Delete, new[] { Key.Delete } },
+            // { (int)KeyboardShortcut.Abort, new[] { Key.Escape } },
 
-            { (int)KeyboardShortcut.SaveNew, new[] { Key.S } },
-            { (int)KeyboardShortcut.ExportAll, new[] { Key.A } },
-            { (int)KeyboardShortcut.ToggleProfile, new[] { Key.K } },
-            // Context-dependent
-            { (int)KeyboardShortcut.SwitchCamera, new[] { Key.C } },
-            { (int)KeyboardShortcut.ViewOnly, new[] { Key.H } },
-            { (int)KeyboardShortcut.ToggleScreenMirroring, new[] { Key.M } },
-            { (int)KeyboardShortcut.PreviousTool, new[] { Key.LeftArrow } },
-            { (int)KeyboardShortcut.NextTool, new[] { Key.RightArrow } },
-            { (int)KeyboardShortcut.CycleSymmetryMode, new[] { Key.F2 } },
-            { (int)KeyboardShortcut.Export, new[] { Key.E } },
-            { (int)KeyboardShortcut.StoreHeadTransform, new[] { Key.O } }, // Also checks for shift
-            { (int)KeyboardShortcut.RecallHeadTransform, new[] { Key.O } },
-            { (int)KeyboardShortcut.ToggleLightType, new[] { Key.P } },
+            // { (int)KeyboardShortcut.SaveNew, new[] { Key.S } },
+            // { (int)KeyboardShortcut.ExportAll, new[] { Key.A } },
+            // { (int)KeyboardShortcut.ToggleProfile, new[] { Key.K } },
+            // // Context-dependent
+            // { (int)KeyboardShortcut.SwitchCamera, new[] { Key.C } },
+            // { (int)KeyboardShortcut.ViewOnly, new[] { Key.H } },
+            // { (int)KeyboardShortcut.ToggleScreenMirroring, new[] { Key.M } },
+            // { (int)KeyboardShortcut.PreviousTool, new[] { Key.LeftArrow } },
+            // { (int)KeyboardShortcut.NextTool, new[] { Key.RightArrow } },
+            // { (int)KeyboardShortcut.CycleSymmetryMode, new[] { Key.F2 } },
+            // { (int)KeyboardShortcut.Export, new[] { Key.E } },
+            // { (int)KeyboardShortcut.StoreHeadTransform, new[] { Key.O } }, // Also checks for shift
+            // { (int)KeyboardShortcut.RecallHeadTransform, new[] { Key.O } },
+            // { (int)KeyboardShortcut.ToggleLightType, new[] { Key.P } },
 
-            { (int)KeyboardShortcut.CheckStrokes, new[] { Key.V } },
+            // { (int)KeyboardShortcut.CheckStrokes, new[] { Key.V } },
 
-            { (int)KeyboardShortcut.ResetScene, new[] { Key.Enter } },
-            { (int)KeyboardShortcut.StraightEdge, new[] { Key.CapsLock } },
+            // { (int)KeyboardShortcut.ResetScene, new[] { Key.Enter } },
+            // { (int)KeyboardShortcut.StraightEdge, new[] { Key.CapsLock } },
 
-            { (int)KeyboardShortcut.Save, new[] { Key.S } },
-            { (int)KeyboardShortcut.Load, new[] { Key.L } },
+            // { (int)KeyboardShortcut.Save, new[] { Key.S } },
+            // { (int)KeyboardShortcut.Load, new[] { Key.L } },
 
-            { (int)KeyboardShortcut.Forward, new[] { Key.N } },
-            { (int)KeyboardShortcut.Backward, new[] { Key.M } },
+            // { (int)KeyboardShortcut.Forward, new[] { Key.N } },
+            // { (int)KeyboardShortcut.Backward, new[] { Key.M } },
 
-            { (int)KeyboardShortcut.PositionMonoCamera, new[] { Key.LeftAlt, Key.RightAlt } },
+            // { (int)KeyboardShortcut.PositionMonoCamera, new[] { Key.LeftAlt, Key.RightAlt } },
 
-            { (int)KeyboardShortcut.ToggleHeadStationaryOrWobble, new[] { Key.Q } },
-            { (int)KeyboardShortcut.ToggleHeadStationaryOrFollow, new[] { Key.W } },
+            // { (int)KeyboardShortcut.ToggleHeadStationaryOrWobble, new[] { Key.Q } },
+            // { (int)KeyboardShortcut.ToggleHeadStationaryOrFollow, new[] { Key.W } },
 
-            { (int)KeyboardShortcut.DecreaseSlowFollowSmoothing, new[] { Key.E } },
-            { (int)KeyboardShortcut.IncreaseSlowFollowSmoothing, new[] { Key.R } },
+            // { (int)KeyboardShortcut.DecreaseSlowFollowSmoothing, new[] { Key.E } },
+            // { (int)KeyboardShortcut.IncreaseSlowFollowSmoothing, new[] { Key.R } },
 
-            { (int)KeyboardShortcut.ToggleGVRAudio, new[] { Key.Backquote } },
+            // { (int)KeyboardShortcut.ToggleGVRAudio, new[] { Key.Backquote } },
 
-            { (int)KeyboardShortcut.TossWidget, new[] { Key.Y } },
+            // { (int)KeyboardShortcut.TossWidget, new[] { Key.Y } },
         };
 
         // Separate keymap for when demo mode is enabled.
         // Determined by DemoManager.m_Instance.DemoModeEnabled == true
         private static readonly KeyMap m_DemoKeyMap = new KeyMap
         {
-            { (int)KeyboardShortcut.ResetEverything, new Key[] { Key.Delete, Key.Backspace } },
-            { (int)KeyboardShortcut.GotoInitialPosition, new Key[] { Key.P } },
-            { (int)KeyboardShortcut.ExtendDemoTimer, new Key[] { Key.E } },
-            { (int)KeyboardShortcut.InstantUpload, new Key[] { Key.U } },
+            // { (int)KeyboardShortcut.ResetEverything, new Key[] { Key.Delete, Key.Backspace } },
+            // { (int)KeyboardShortcut.GotoInitialPosition, new Key[] { Key.P } },
+            // { (int)KeyboardShortcut.ExtendDemoTimer, new Key[] { Key.E } },
+            // { (int)KeyboardShortcut.InstantUpload, new Key[] { Key.U } },
         };
 
         private KeyMap ActiveKeyMap

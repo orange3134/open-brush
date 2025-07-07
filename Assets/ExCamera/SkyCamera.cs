@@ -48,7 +48,6 @@ namespace SkyCamera
 
             Vector3 smoothPositionVector = Vector3.SmoothDamp(_prevPositionVector, positionVectorInSpace * _moveSpeed, ref _currentMoveVelocity, _moveSmoothTime);
 
-            Debug.Log("PositionVector: " + positionVector + " smoothPositionVector: " + smoothPositionVector);
             _cameraParent.Translate(smoothPositionVector);
             _prevPositionVector = smoothPositionVector;
         }

@@ -69,14 +69,12 @@
       ]
     },
     {
-      "name": "Unity NuGet",
-      "url": "https://unitynuget-registry.azurewebsites.net",
-      "scopes": [
-        "org.nuget.google",
-        "org.nuget.newtonsoft",
-        "org.nuget.sharpziplib"
-      ]
-    },
+  "name": "Unity NuGet",
+  "url": "https://unitynuget-registry.openupm.com",
+  "scopes": [
+    "org.nuget"
+  ]
+},
     {
       "name": "Meta XR",
       "url": "https://npm.developer.oculus.com",

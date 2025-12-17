@@ -168,80 +168,80 @@ namespace TiltBrush
         // active.
         private static readonly KeyMap m_KeyMap = new KeyMap
         {
-            { (int)KeyboardShortcut.LockToHead, new[] { Key.LeftShift } },
-            { (int)KeyboardShortcut.PivotRotation, new[] { Key.LeftCtrl } },
-            { (int)KeyboardShortcut.Scale, new[] { Key.Tab } },
+            // { (int)KeyboardShortcut.LockToHead, new[] { Key.LeftShift } },
+            // { (int)KeyboardShortcut.PivotRotation, new[] { Key.LeftCtrl } },
+            // { (int)KeyboardShortcut.Scale, new[] { Key.Tab } },
 
-            { (int)KeyboardShortcut.RewindTimeline, new[] { Key.Minus } },
-            { (int)KeyboardShortcut.AdvanceTimeline, new[] { Key.Equals } },
-            { (int)KeyboardShortcut.TimelineHome, new[] { Key.Home } },
-            { (int)KeyboardShortcut.TimelineEnd, new[] { Key.End } },
-            { (int)KeyboardShortcut.Reset, new[] { Key.Space } },             // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.Undo, new[] { Key.Z } },
-            { (int)KeyboardShortcut.Redo, new[] { Key.X } },
-            { (int)KeyboardShortcut.Delete, new[] { Key.Delete } },
-            { (int)KeyboardShortcut.Abort, new[] { Key.Escape } },
+            // { (int)KeyboardShortcut.RewindTimeline, new[] { Key.Minus } },
+            // { (int)KeyboardShortcut.AdvanceTimeline, new[] { Key.Equals } },
+            // { (int)KeyboardShortcut.TimelineHome, new[] { Key.Home } },
+            // { (int)KeyboardShortcut.TimelineEnd, new[] { Key.End } },
+            // { (int)KeyboardShortcut.Reset, new[] { Key.Space } },             // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.Undo, new[] { Key.Z } },
+            // { (int)KeyboardShortcut.Redo, new[] { Key.X } },
+            // { (int)KeyboardShortcut.Delete, new[] { Key.Delete } },
+            // { (int)KeyboardShortcut.Abort, new[] { Key.Escape } },
 
-            { (int)KeyboardShortcut.SaveNew, new[] { Key.S } },               // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.ToggleProfile, new[] { Key.K } },         // Advanced Keyboard Shortcut mode only
-            // Context-dependent
-            { (int)KeyboardShortcut.SwitchCamera, new[] { Key.C } },          // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.ViewOnly, new[] { Key.H } },              // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.ToggleScreenMirroring, new[] { Key.M } }, // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.PreviousTool, new[] { Key.LeftArrow } },  // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.NextTool, new[] { Key.RightArrow } },     // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.CycleSymmetryMode, new[] { Key.F2 } },    // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.Export, new[] { Key.E } },                // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.StoreHeadTransform, new[] { Key.O } },    // Also checks for shift. Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.RecallHeadTransform, new[] { Key.O } },
-            { (int)KeyboardShortcut.ToggleLightType, new[] { Key.P } },
+            // { (int)KeyboardShortcut.SaveNew, new[] { Key.S } },               // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.ToggleProfile, new[] { Key.K } },         // Advanced Keyboard Shortcut mode only
+            // // Context-dependent
+            // { (int)KeyboardShortcut.SwitchCamera, new[] { Key.C } },          // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.ViewOnly, new[] { Key.H } },              // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.ToggleScreenMirroring, new[] { Key.M } }, // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.PreviousTool, new[] { Key.LeftArrow } },  // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.NextTool, new[] { Key.RightArrow } },     // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.CycleSymmetryMode, new[] { Key.F2 } },    // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.Export, new[] { Key.E } },                // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.StoreHeadTransform, new[] { Key.O } },    // Also checks for shift. Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.RecallHeadTransform, new[] { Key.O } },
+            // { (int)KeyboardShortcut.ToggleLightType, new[] { Key.P } },
 
-            { (int)KeyboardShortcut.CheckStrokes, new[] { Key.V } },
+            // { (int)KeyboardShortcut.CheckStrokes, new[] { Key.V } },
 
-            { (int)KeyboardShortcut.ResetScene, new[] { Key.Enter } },
-            { (int)KeyboardShortcut.StraightEdge, new[] { Key.CapsLock } },
+            // { (int)KeyboardShortcut.ResetScene, new[] { Key.Enter } },
+            // { (int)KeyboardShortcut.StraightEdge, new[] { Key.CapsLock } },
 
-            { (int)KeyboardShortcut.Save, new[] { Key.S } },
-            { (int)KeyboardShortcut.Load, new[] { Key.L } },
+            // { (int)KeyboardShortcut.Save, new[] { Key.S } },
+            // { (int)KeyboardShortcut.Load, new[] { Key.L } },
 
-            { (int)KeyboardShortcut.CameraMoveForward, new[] { Key.N } },
-            { (int)KeyboardShortcut.CameraMoveBackwards, new[] { Key.M } },
+            // { (int)KeyboardShortcut.CameraMoveForward, new[] { Key.N } },
+            // { (int)KeyboardShortcut.CameraMoveBackwards, new[] { Key.M } },
 
-            { (int)KeyboardShortcut.PositionMonoCamera, new[] { Key.LeftAlt, Key.RightAlt } },
+            // { (int)KeyboardShortcut.PositionMonoCamera, new[] { Key.LeftAlt, Key.RightAlt } },
 
-            { (int)KeyboardShortcut.ToggleHeadStationaryOrWobble, new[] { Key.Q } }, // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.ToggleHeadStationaryOrFollow, new[] { Key.W } }, // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.ToggleHeadStationaryOrWobble, new[] { Key.Q } }, // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.ToggleHeadStationaryOrFollow, new[] { Key.W } }, // Advanced Keyboard Shortcut mode only
 
-            { (int)KeyboardShortcut.DecreaseSlowFollowSmoothing, new[] { Key.E } },  // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.IncreaseSlowFollowSmoothing, new[] { Key.R } },  // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.DecreaseSlowFollowSmoothing, new[] { Key.E } },  // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.IncreaseSlowFollowSmoothing, new[] { Key.R } },  // Advanced Keyboard Shortcut mode only
 
-            { (int)KeyboardShortcut.ToggleGVRAudio, new[] { Key.Backquote } },
+            // { (int)KeyboardShortcut.ToggleGVRAudio, new[] { Key.Backquote } },
 
-            { (int)KeyboardShortcut.TossWidget, new[] { Key.Y } },                   // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.TossWidget, new[] { Key.Y } },                   // Advanced Keyboard Shortcut mode only
         };
 
         // Separate keymap for when we launch but no VR headset is detected.
         private static readonly KeyMap m_NoHeadsetKeyMap = new KeyMap
         {
-            { (int)KeyboardShortcut.CameraMoveForward, new[] { Key.W } },
-            { (int)KeyboardShortcut.CameraMoveBackwards, new[] { Key.S } },
-            { (int)KeyboardShortcut.CameraMoveLeft, new[] { Key.A } },
-            { (int)KeyboardShortcut.CameraMoveRight, new[] { Key.D } },
-            { (int)KeyboardShortcut.CameraMoveUp, new[] { Key.Q } },
-            { (int)KeyboardShortcut.CameraMoveDown, new[] { Key.E } },
-            { (int)KeyboardShortcut.FlyMode, new[] { Key.F } }, // Advanced Keyboard Shortcut mode only
-            { (int)KeyboardShortcut.InvertLook, new[] { Key.I } },
-            { (int)KeyboardShortcut.SprintMode, new[] { Key.LeftShift } },
+            // { (int)KeyboardShortcut.CameraMoveForward, new[] { Key.W } },
+            // { (int)KeyboardShortcut.CameraMoveBackwards, new[] { Key.S } },
+            // { (int)KeyboardShortcut.CameraMoveLeft, new[] { Key.A } },
+            // { (int)KeyboardShortcut.CameraMoveRight, new[] { Key.D } },
+            // { (int)KeyboardShortcut.CameraMoveUp, new[] { Key.Q } },
+            // { (int)KeyboardShortcut.CameraMoveDown, new[] { Key.E } },
+            // { (int)KeyboardShortcut.FlyMode, new[] { Key.F } }, // Advanced Keyboard Shortcut mode only
+            // { (int)KeyboardShortcut.InvertLook, new[] { Key.I } },
+            // { (int)KeyboardShortcut.SprintMode, new[] { Key.LeftShift } },
         };
 
         // Separate keymap for when demo mode is enabled.
         // Determined by DemoManager.m_Instance.DemoModeEnabled == true
         private static readonly KeyMap m_DemoKeyMap = new KeyMap
         {
-            { (int)KeyboardShortcut.ResetEverything, new Key[] { Key.Delete, Key.Backspace } },
-            { (int)KeyboardShortcut.GotoInitialPosition, new Key[] { Key.P } },
-            { (int)KeyboardShortcut.ExtendDemoTimer, new Key[] { Key.E } },
-            { (int)KeyboardShortcut.InstantUpload, new Key[] { Key.U } },
+            // { (int)KeyboardShortcut.ResetEverything, new Key[] { Key.Delete, Key.Backspace } },
+            // { (int)KeyboardShortcut.GotoInitialPosition, new Key[] { Key.P } },
+            // { (int)KeyboardShortcut.ExtendDemoTimer, new Key[] { Key.E } },
+            // { (int)KeyboardShortcut.InstantUpload, new Key[] { Key.U } },
         };
 
         private KeyMap ActiveKeyMap

@@ -49,7 +49,7 @@ MonoBehaviour:
   _horizontalMove: 0
   _moveSpeed: 0.15
   _moveSmoothTime: 0.2
-  _rotationSpeed: 0.15
+  _rotationSpeed: 0.2
   _rotationSmoothTime: 0.2
   _fovSpeed: 0.2
   _fovSmoothTime: 0.1
@@ -153,7 +153,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 67108407
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: b64af1a7a642b4b4d9fff8a7e1452050, type: 2}
   m_TargetDisplay: 0
@@ -314,7 +314,7 @@ PrefabInstance:
     - target: {fileID: 6718644342990399369, guid: 28bf6756a95ffd04fbe0323605d8456f,
         type: 3}
       propertyPath: m_Layer
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 7785679998913365594, guid: 28bf6756a95ffd04fbe0323605d8456f,
         type: 3}
@@ -324,7 +324,7 @@ PrefabInstance:
     - target: {fileID: 7785679998913365594, guid: 28bf6756a95ffd04fbe0323605d8456f,
         type: 3}
       propertyPath: m_Layer
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

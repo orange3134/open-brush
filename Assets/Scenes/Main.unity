@@ -7213,6 +7213,16 @@ PrefabInstance:
       propertyPath: _rotationSpeed
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 3475302945326167879, guid: 94ec905968281af4393722bd277d09cf,
+        type: 3}
+      propertyPath: _moveSmoothTime
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3475302945732140269, guid: 94ec905968281af4393722bd277d09cf,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 67108407
+      objectReference: {fileID: 0}
     - target: {fileID: 6644651308310064593, guid: 94ec905968281af4393722bd277d09cf,
         type: 3}
       propertyPath: m_Layer
